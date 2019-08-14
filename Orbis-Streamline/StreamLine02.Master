@@ -1,0 +1,77 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="StreamLine02.Master.vb" Inherits="Orbis_Streamline.StreamLine02" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+  <title>Orbis StreamLine Portal</title>
+  <link rel="icon" href="favicon-96x96.png" type="image/x-icon" />
+
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/simple-sidebar.css" rel="stylesheet" />
+
+  <link href="css/StreamLine.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <asp:ContentPlaceHolder ID="head" runat="server">
+  </asp:ContentPlaceHolder>
+</head>
+<body>
+  <form id="form1" runat="server">
+    <div id="DivPageContainer" class="container-fluid">
+
+      <div class="row headerrow">
+            <div class="col-xs-12 col-sm-3 col-lg-3  HeaderlogoBlock">
+              <asp:HyperLink ID="hypLogo" runat="server" ImageUrl="~/Images/Orbis-Logo-Small.png" CssClass="HeaderLogo" Text="Orbis Systems Logo" NavigateUrl="/"></asp:HyperLink>
+            </div>
+      </div>
+
+      <div class="container2">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navMenu" runat="server">
+
+              <ul class="nav navbar-nav">
+
+                <li><a id="a_menu_1" class="NavMenuLink" href="DashBoard01.aspx">Dashboard</a></li>
+                <li><a id="a_menu_3" class="NavMenuLink" href="DeviceManager.aspx">Device Manager</a></li>
+                <li><a id="a_menu_4" class="NavMenuLink" href="DeviceStatusList.aspx">Device Status List</a></li>
+                <li><a id="a_menu_99" class="NavMenuLink" href="#">Log Off</a></li>
+
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+      </div>
+
+      <div class="DivPageContent container-fluid">
+
+        <asp:ContentPlaceHolder ID="contentBody" runat="server">
+        </asp:ContentPlaceHolder>
+
+      </div>
+
+      <div class="col-sx-12 FooterBar">
+        Authorised users only.<br />
+        Copyright 2019 - Orbis Systems
+      </div>
+    </div>
+  </form>
+
+
+</body>
+</html>

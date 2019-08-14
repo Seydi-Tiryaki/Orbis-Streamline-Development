@@ -1,0 +1,73 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="StreamLine01.master.vb" Inherits="Orbis_Streamline.StreamLine01" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+  <title>Orbis StreamLine Portal</title>
+  <link rel="icon" href="favicon-96x96.png" type="image/x-icon" />
+
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <link href="css/StreamLine.css" rel="stylesheet" type="text/css" />
+
+
+  <asp:ContentPlaceHolder ID="head" runat="server">
+  </asp:ContentPlaceHolder>
+</head>
+<body>
+  <form id="form1" runat="server">
+    <div class="container">
+
+      <div class="row headerrow">
+        <div class="col-xs-12 col-sm-3 col-lg-3  HeaderlogoBlock">
+          <asp:HyperLink ID="hypLogo" runat="server" ImageUrl="~/Images/Orbis-Logo-Small.png" CssClass="HeaderLogo" Text="Bathroom Traders Logo" NavigateUrl="/"></asp:HyperLink>
+        </div>
+
+      </div>
+
+      <div class="container2">
+        <nav class="navbar navbar-default" role="navigation" >
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="nav-link"><a href="#" >Home</a></li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+      </div>
+
+
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        <div class="containerMain">
+
+
+          <div class="PageHeader1">Orbis StreamLine Portal</div>
+
+
+        </div>
+      </asp:ContentPlaceHolder>
+
+      <div class="FooterBar">
+        Authorised users only.<br />
+        Copyright 2019 - Orbis Systems
+      </div>
+    </div>
+  </form>
+</body>
+</html>

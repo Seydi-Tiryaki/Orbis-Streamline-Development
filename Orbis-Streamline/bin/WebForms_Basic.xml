@@ -1,0 +1,2595 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Orbis-Streamline
+</name>
+</assembly>
+<members>
+<member name="T:Orbis_Streamline.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Orbis_Streamline.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:Orbis_Streamline.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:Orbis_Streamline.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:Orbis_Streamline.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:Orbis_Streamline.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="T:Orbis_Streamline.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Orbis_Streamline.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Orbis_Streamline.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._ddOrganizations">
+<summary>
+ddOrganizations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._Label0">
+<summary>
+Label0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._lstCustomers">
+<summary>
+lstCustomers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._lnkNewCust">
+<summary>
+lnkNewCust control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._lnkEditCust">
+<summary>
+lnkEditCust control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._pnlLocations">
+<summary>
+pnlLocations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._lstLocations">
+<summary>
+lstLocations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._lnkNewLocation">
+<summary>
+lnkNewLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._lnkEditLocation">
+<summary>
+lnkEditLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._pnlSubLocations">
+<summary>
+pnlSubLocations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._lstSubLocations">
+<summary>
+lstSubLocations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._lnkNewSubLoc">
+<summary>
+lnkNewSubLoc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._lnkEditSubLoc">
+<summary>
+lnkEditSubLoc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._pnlCustomerEdit">
+<summary>
+pnlCustomerEdit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._lblEditCustHdr">
+<summary>
+lblEditCustHdr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._txtEditCustName">
+<summary>
+txtEditCustName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._txtEditCustID">
+<summary>
+txtEditCustID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._txtEditCustTS">
+<summary>
+txtEditCustTS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._txtEditCustShortCode">
+<summary>
+txtEditCustShortCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._Label10">
+<summary>
+Label10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._txtNotifyEmail">
+<summary>
+txtNotifyEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._revEmail">
+<summary>
+revEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._Label12">
+<summary>
+Label12 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._txtNotifyAcousticLevel">
+<summary>
+txtNotifyAcousticLevel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._Label13">
+<summary>
+Label13 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._txtNotifyAcousticCount">
+<summary>
+txtNotifyAcousticCount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._chkEditCustActive">
+<summary>
+chkEditCustActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._cmdUpdateCustomer">
+<summary>
+cmdUpdateCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._pnlLocationEdit">
+<summary>
+pnlLocationEdit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._lblEditLocHdr">
+<summary>
+lblEditLocHdr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._Label8">
+<summary>
+Label8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._txtEditLocName">
+<summary>
+txtEditLocName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._txtEditLocID">
+<summary>
+txtEditLocID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._txtEditLocTS">
+<summary>
+txtEditLocTS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._Label9">
+<summary>
+Label9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._ddEditLocGeneralLoc">
+<summary>
+ddEditLocGeneralLoc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._chkEditLocActive">
+<summary>
+chkEditLocActive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._cmdUpdateLocation">
+<summary>
+cmdUpdateLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._pnlSubLocationEdit">
+<summary>
+pnlSubLocationEdit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._lblEditSubLocHdr">
+<summary>
+lblEditSubLocHdr control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._Label11">
+<summary>
+Label11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._txtEditSubLocName">
+<summary>
+txtEditSubLocName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._txtEditSubLocID">
+<summary>
+txtEditSubLocID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._txtEditSubLocTS">
+<summary>
+txtEditSubLocTS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.CustomerMaint._cmdUpdateSubLoc">
+<summary>
+cmdUpdateSubLoc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._txtFormRef">
+<summary>
+txtFormRef control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._lblDeviceDetails">
+<summary>
+lblDeviceDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._txtDevID">
+<summary>
+txtDevID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._ddDataType">
+<summary>
+ddDataType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._ddDateRange">
+<summary>
+ddDateRange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._lstDeviceEvents">
+<summary>
+lstDeviceEvents control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._pnlImages">
+<summary>
+pnlImages control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._cmdGenerateAudio">
+<summary>
+cmdGenerateAudio control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._pnlPlayAudio">
+<summary>
+pnlPlayAudio control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._audioPlayer">
+<summary>
+audioPlayer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._litDesciption">
+<summary>
+litDesciption control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._pnlConcatCont">
+<summary>
+pnlConcatCont control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._pnlConcat">
+<summary>
+pnlConcat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataProcessed._litConcatsDesc">
+<summary>
+litConcatsDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._txtDevID">
+<summary>
+txtDevID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._lblDeviceDetails">
+<summary>
+lblDeviceDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._ddDateRange">
+<summary>
+ddDateRange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._lineDailyFlowEvents">
+<summary>
+lineDailyFlowEvents control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._lineuSonicFlow">
+<summary>
+lineuSonicFlow control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._hypLeakDetails">
+<summary>
+hypLeakDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._LineLeakage">
+<summary>
+LineLeakage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._LineLeakageDetailed">
+<summary>
+LineLeakageDetailed control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._lblLeakTooltip">
+<summary>
+lblLeakTooltip control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._LineVibration">
+<summary>
+LineVibration control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._hypPipeCondDetails">
+<summary>
+hypPipeCondDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._linePipeCondition">
+<summary>
+linePipeCondition control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._linePressue">
+<summary>
+linePressue control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._Label8">
+<summary>
+Label8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._lineDeviceCheckins">
+<summary>
+lineDeviceCheckins control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._Label9">
+<summary>
+Label9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._Label10">
+<summary>
+Label10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._lineDailyAvgBattery">
+<summary>
+lineDailyAvgBattery control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._Label11">
+<summary>
+Label11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._Label12">
+<summary>
+Label12 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._lineBoardTempMA">
+<summary>
+lineBoardTempMA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._Label13">
+<summary>
+Label13 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._Label14">
+<summary>
+Label14 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceDataAnalysis._lineDailyAvgBoardTemp">
+<summary>
+lineDailyAvgBoardTemp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceStatusList._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceStatusList._pnlDeviceList">
+<summary>
+pnlDeviceList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceStatusList._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceStatusList._ddorganizations">
+<summary>
+ddorganizations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceStatusList._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceStatusList._ddCustomers">
+<summary>
+ddCustomers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceStatusList._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceStatusList._ddLocations">
+<summary>
+ddLocations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceStatusList._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceStatusList._ddsubLocations">
+<summary>
+ddsubLocations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceStatusList._gvDevices">
+<summary>
+gvDevices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceStatusList._chkDetailedData">
+<summary>
+chkDetailedData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._pnlDeviceList">
+<summary>
+pnlDeviceList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._ddorganizations">
+<summary>
+ddorganizations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._ddCustomers">
+<summary>
+ddCustomers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._ddLocations">
+<summary>
+ddLocations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._ddsubLocations">
+<summary>
+ddsubLocations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._gvDevices">
+<summary>
+gvDevices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._pnlDeviceEdit">
+<summary>
+pnlDeviceEdit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._pnlOverlay">
+<summary>
+pnlOverlay control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._pnlPopUpPanel">
+<summary>
+pnlPopUpPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._pnlPopUpTitle">
+<summary>
+pnlPopUpTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._lblEditTitle">
+<summary>
+lblEditTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._cmdClosePopUp">
+<summary>
+cmdClosePopUp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._txtDevID">
+<summary>
+txtDevID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._txtDevTS">
+<summary>
+txtDevTS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label9">
+<summary>
+Label9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._txtAssetTag">
+<summary>
+txtAssetTag control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label12">
+<summary>
+Label12 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._ddDevModel">
+<summary>
+ddDevModel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label13">
+<summary>
+Label13 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._ddDevType">
+<summary>
+ddDevType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label35">
+<summary>
+Label35 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._ddEditOrganisation">
+<summary>
+ddEditOrganisation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._ddEditCustomer">
+<summary>
+ddEditCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._ddEditLocation">
+<summary>
+ddEditLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._ddEditSubLocation">
+<summary>
+ddEditSubLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label8">
+<summary>
+Label8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._txtLocationRef">
+<summary>
+txtLocationRef control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label10">
+<summary>
+Label10 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._ddPipeOrient">
+<summary>
+ddPipeOrient control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label11">
+<summary>
+Label11 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._ddPipeDiameter">
+<summary>
+ddPipeDiameter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label14">
+<summary>
+Label14 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._txtSerialNo">
+<summary>
+txtSerialNo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label19">
+<summary>
+Label19 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._chkDevLive">
+<summary>
+chkDevLive control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label20">
+<summary>
+Label20 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._txtInternalNote">
+<summary>
+txtInternalNote control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label15">
+<summary>
+Label15 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._txtLatitute">
+<summary>
+txtLatitute control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._Label16">
+<summary>
+Label16 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._txtLongitude">
+<summary>
+txtLongitude control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._cmdCancel">
+<summary>
+cmdCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DeviceManager._cmdUpdate">
+<summary>
+cmdUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._ddorganizations">
+<summary>
+ddorganizations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._ddCustomers">
+<summary>
+ddCustomers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._ddLocations">
+<summary>
+ddLocations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._ddsubLocations">
+<summary>
+ddsubLocations control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._pieUnitsByType">
+<summary>
+pieUnitsByType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._pieCommsStatus">
+<summary>
+pieCommsStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._pieDevByLocation">
+<summary>
+pieDevByLocation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._pieAlerts">
+<summary>
+pieAlerts control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._gvAlerts">
+<summary>
+gvAlerts control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.DashBoard01._mapDevices">
+<summary>
+mapDevices control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline._default._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline._default._txtUsername">
+<summary>
+txtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline._default._revEmail">
+<summary>
+revEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline._default._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline._default._txtPword">
+<summary>
+txtPword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline._default._cmdLogin">
+<summary>
+cmdLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline._default._pnlReminder">
+<summary>
+pnlReminder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline._default._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline._default._txtReminderEmail">
+<summary>
+txtReminderEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline._default._revReminder">
+<summary>
+revReminder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline._default._cmdRemind">
+<summary>
+cmdRemind control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline._default._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.ExceptionPage._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.ExceptionPage._Image1">
+<summary>
+Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.ExceptionPage._tblDetails">
+<summary>
+tblDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.logoff._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._pnlHeader">
+<summary>
+pnlHeader control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._lnkNewOp">
+<summary>
+lnkNewOp control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._gvSearch">
+<summary>
+gvSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._pnlDetails">
+<summary>
+pnlDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._txtID">
+<summary>
+txtID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._txtTS">
+<summary>
+txtTS control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._txtEmail">
+<summary>
+txtEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._revEmail">
+<summary>
+revEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._txtName">
+<summary>
+txtName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._txtJob">
+<summary>
+txtJob control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._txtTelephone">
+<summary>
+txtTelephone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._chkSuspended">
+<summary>
+chkSuspended control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._pnlSuperUser1">
+<summary>
+pnlSuperUser1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._chkSuperUser">
+<summary>
+chkSuperUser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._PnlOrgs">
+<summary>
+PnlOrgs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._lstAvailOrgs">
+<summary>
+lstAvailOrgs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._lnkAddOrg">
+<summary>
+lnkAddOrg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._lnkRemoveOrg">
+<summary>
+lnkRemoveOrg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._lstSelectedOrgs">
+<summary>
+lstSelectedOrgs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._lstAvailCusts">
+<summary>
+lstAvailCusts control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._lnkAddCustomer">
+<summary>
+lnkAddCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._lnkRemoveCustomer">
+<summary>
+lnkRemoveCustomer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._lstSelectedCusts">
+<summary>
+lstSelectedCusts control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._lstAvailLocs">
+<summary>
+lstAvailLocs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._lnkAddLoc">
+<summary>
+lnkAddLoc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._lnkRemoveLoc">
+<summary>
+lnkRemoveLoc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._lstSelectedLocs">
+<summary>
+lstSelectedLocs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._dgPerms">
+<summary>
+dgPerms control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._cmdUpdate">
+<summary>
+cmdUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.OperatorMaintenance._cmdCancel">
+<summary>
+cmdCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordChange._txtCurrent">
+<summary>
+txtCurrent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordChange._txtNewPassword1">
+<summary>
+txtNewPassword1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordChange._txtNewPassword2">
+<summary>
+txtNewPassword2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordChange._cmdChangePassword">
+<summary>
+cmdChangePassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordReset._pnlReset">
+<summary>
+pnlReset control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordReset._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordReset._txtPassword1">
+<summary>
+txtPassword1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordReset._rev1">
+<summary>
+rev1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordReset._txtResetID">
+<summary>
+txtResetID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordReset._txtOperatorID">
+<summary>
+txtOperatorID control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordReset._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordReset._txtPassword2">
+<summary>
+txtPassword2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordReset._cmdReset">
+<summary>
+cmdReset control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordReset._pnlError">
+<summary>
+pnlError control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.PasswordReset._lblFailureMsg">
+<summary>
+lblFailureMsg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.ProcessBufferToData._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.ProcessBufferToData._lblText">
+<summary>
+lblText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.ProcessEvents._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.ProcessEvents._lblText">
+<summary>
+lblText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.ProdigyIotCollector._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.ProdigyIotCollector._lblText">
+<summary>
+lblText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.ProdigyIotCollector._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.ScheduledDaily._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.ScheduledDaily._lblText">
+<summary>
+lblText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.StreamLine02._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.StreamLine02._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.StreamLine02._hypLogo">
+<summary>
+hypLogo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.StreamLine02._navMenu">
+<summary>
+navMenu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.StreamLine02._contentBody">
+<summary>
+contentBody control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.StreamLine01._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.StreamLine01._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.StreamLine01._hypLogo">
+<summary>
+hypLogo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.StreamLine01._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.SystemTestEmailSends._ddEmailType">
+<summary>
+ddEmailType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.SystemTestEmailSends._txtToEmail">
+<summary>
+txtToEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.SystemTestEmailSends._cmdSend">
+<summary>
+cmdSend control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.SystemTestEmailSends._cmdFixDupTriggers">
+<summary>
+cmdFixDupTriggers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.SystemTestEmailSends._cmdProcessRawData">
+<summary>
+cmdProcessRawData control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.SystemTestEmailSends._cmdCreateDir">
+<summary>
+cmdCreateDir control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.SystemTestEmailSends._cmdCallAlgo">
+<summary>
+cmdCallAlgo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.TestRedirect._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.TestRedirect._lblText">
+<summary>
+lblText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.TestRedirect._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.TestIOT._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.TestIOT._lblText">
+<summary>
+lblText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.TestIOT._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.WebForm_test._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.WebForm_test._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.WebForm_test._txtUsername">
+<summary>
+txtUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.WebForm_test._revEmail">
+<summary>
+revEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.WebForm_test._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.WebForm_test._txtPword">
+<summary>
+txtPword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.WebForm_test._cmdLogin">
+<summary>
+cmdLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.WebForm_test._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.WebForm_test._txtReminderEmail">
+<summary>
+txtReminderEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.WebForm_test._revReminder">
+<summary>
+revReminder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Orbis_Streamline.WebForm_test._cmdRemind">
+<summary>
+cmdRemind control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,361 @@
+﻿
+.HeaderLogo {
+  float:left;
+}
+
+.nav {
+  width: 100%
+}
+
+.navbar {
+  border: 0;
+  border-top: 2px solid #17A3E1;
+  border-bottom: 2px solid #17A3E1;
+  background-color: #ffffff;
+  }
+
+
+.NavMenuLink {
+  font-size:1.2em;
+  padding: 5px;
+}
+.NavMenuLink:hover {
+  background-color:#eeeeee !important    ;
+}
+
+.dropdown-item {
+  width: 100%;
+  padding: 10px;
+  color: #333;
+
+}
+
+.dropdown-menu {
+  min-width:300px
+
+}
+
+.DivLogonCont {
+  /*width: 100%;*/
+  border: solid 1px #10bab9;
+  border-radius: 20px;
+  padding: 10%;
+  margin-bottom: 40px;
+  box-shadow: 10px 10px 8px #dddddd;
+}
+
+.AccountHeaderText {
+  font-size: 2.0em;
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+
+.AccountSubHeaderText {
+  font-size: 1.2em;
+  padding-bottom: 1%;
+}
+
+.AccountFormField {
+  padding-bottom: 1%;
+}
+
+.AccountFormButton {
+  background-color: #023C52;
+  background-image: linear-gradient(#023C52, #17A3E1);
+  color: white;
+  font-weight: bold;
+}
+
+.FormValidError {
+  color: red;
+}
+
+
+.DivPageContent {
+  min-height: 500px;
+}
+
+
+
+
+.FooterBar {
+  border: 0;
+  border-top: 2px solid #17A3E1;
+  border-bottom: 2px solid #17A3E1;
+  background-color: #ffffff;
+}
+
+
+.Overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height:300%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  filter: alpha(opacity=50);
+  opacity:1.0;
+  z-index: 1000;
+}
+
+.PopUpPanel {
+  margin: 0 auto;
+  position: relative;
+  background-color: white;
+  top: 30px;
+  left: auto;
+  right: auto;
+  z-index: 2001;
+  padding: 10px;
+  min-width: 600px;
+  max-width: 800px;
+  -moz-box-shadow: 3.5px 4px 5px #000000;
+  -webkit-box-shadow: 3.5px 4px 5px #000000;
+  box-shadow: 3.5px 4px 5px #000000;
+  border-radius: 5px;
+  -moz-border-radiux: 5px;
+  -webkit-border-radiux: 5px;
+  border: 1px solid #CCCCCC;
+  opacity:1.0;
+}
+
+.PopUpTitle {
+  background-color: #17A3E1;
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+
+.RowEdit {
+  padding-top:5px;
+  }
+
+.cmdButton {
+  background-color: #88D0E0;
+  color: white;
+  border: solid 1px transparent;
+}
+  .cmdButton:hover {
+    background-color: #17A3E1;
+    font-weight: bold;
+    border: solid 1px DarkBlue;
+  }
+
+.GridIconLink img {height:30px;}
+
+.gridHeaderCenter {
+  text-align: center !important;
+  border-left: solid 1px GhostWhite;
+}
+.gridColStatus {
+  border-right: solid 1px #555;
+  border-bottom: solid 1px #555;
+}
+
+
+.ReportRow:hover {
+  border-top: solid 2px #17A3E1;
+  border-Bottom: solid 2px #17A3E1;
+}
+
+
+.DeviceDataHeader {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.RadMap .k-marker.k-i-marker-my-custom-shape-ok:before {
+  color: green;
+}
+.RadMap .k-marker.k-i-marker-my-custom-shape-alert:before {
+  color: red;
+}
+.k-chart-tooltip {
+  font-weight: bold !important;
+  font-size: 1.2em !important;
+  border: solid 1px grey !important;
+}
+
+.divSampleGraph {
+  background: url(images/SampleWatermark.png) no-repeat;
+}
+
+.AlgoImage1 {
+  max-width: 100%;
+
+}
+.AlgoDescription {
+  font-size:1.0em;
+}
+.AlgoDescRed {
+  color: red;
+  font-weight: 900;
+}
+
+.AlgoDescGreen {
+  color: green;
+  font-weight: 900;
+}
+.AlgoDescBlack {
+  color: black;
+  font-weight: 900;
+}
+
+.PanelUpperHeader {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e5e5e5;
+  background-image: linear-gradient(to bottom, #cccccc, #e5e5e5);
+}
+
+.PanelUpperHeader h1 {
+  padding:0px;
+  margin:0px;
+}
+
+.PanelHeader {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e5e5e5;
+  background-image: linear-gradient(to bottom, #cccccc, #e5e5e5);
+}
+
+.HeaderPanelIcon {
+  font-size:20px;
+  padding:5px;
+}
+
+  .HeaderPanelIcon:hover {
+    color: white;
+    background-color: #23527c;
+    transition:1.0s;
+  }
+
+
+.minibutton {
+  background-color: #e5e5e5;
+  background-image: linear-gradient(to bottom, #cccccc, #e5e5e5);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.MaintenanceGrid {
+  width:100%;
+  max-width: 800px;
+}
+
+.DataGridColHdr {
+  background-color: #e5e5e5;
+  background-image: linear-gradient(to bottom, #cccccc, #e5e5e5);
+}
+.GridViewEditIcon {
+  font-size: 15px;
+  padding:3px;
+}
+  .GridViewEditIcon:hover {
+    color: white;
+    background-color: #23527c;
+    transition: 1.0s;
+  }
+
+.MaintenanceEdit {
+  width: 100%;
+  max-width: 800px;
+}
+
+.DivEditLabel {
+  padding:5px;
+  text-align:left;
+
+}
+
+.DivEditField {
+  padding:5px;
+  text-align: left
+}
+.EditArrow {
+  font-size: 30px;
+  padding: 3px;
+}
+
+  .EditArrow:hover {
+    color: white;
+    background-color: #23527c;
+    transition: 1.0s;
+  }
+
+.EditArrowDiv {
+  text-align:center;
+  padding-top: 10px;
+}
+
+
+.CustListPanel {
+  height: 100%;
+}
+.CustEditPanel {
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid 1px lightblue;
+  background-color: azure;
+}
+
+.CustEditListbox {
+  width: 100%;
+  height: 100% !important;
+  font-size: 1.5em;
+}
+.CustEditIcon {
+  font-size:30px;
+  padding:10px;
+}
+.CustListHeader {
+  font-size:1.5em;
+  font-weight:bold;
+}
+.EditCustRow {
+  padding-bottom:10px;
+}
+
+.PipeConditionMainImg {
+  width: 100%;
+}
+
+.PipeConditionSliceImg {
+  height: 20px;
+  width: 100%;
+}
+.ChartHeight
+{height:500px !important;}
+
+.ChartPanel {
+  border-bottom: solid 1px lightgrey;
+  margin-bottom:50px;
+  text-align:center;
+}
+.GraphInfoIcon {
+  float:left;
+  display: inline-block;
+  font-size: 1.5em;
+  color: darkblue;
+  white-space: pre-line;
+  padding-right: 20px;
+}
+.GraphInfoPanel {
+  z-index: 10000;
+  white-space: pre-line;
+}
+.GraphInfoText {
+  display: inline-block;
+  width:90%;
+  margin-top: -20px;
+  font-size:0.9em;
+}
